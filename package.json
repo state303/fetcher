@@ -1,5 +1,5 @@
 {
-  "name": "fetcher",
+  "name": "@state303/fetcher",
   "version": "0.0.0",
   "devDependencies": {
     "@cloudflare/workers-types": "^3.14.1",
