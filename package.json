@@ -12,7 +12,9 @@
   "private": true,
   "scripts": {
     "start": "wrangler dev",
-    "deploy": "wrangler publish"
+    "build": "tsc",
+    "deploy": "wrangler publish",
+    "test": "jest"
   },
   "dependencies": {
     "@types/node-fetch": "^2.6.2"
