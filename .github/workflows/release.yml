@@ -11,7 +11,7 @@ jobs:
         uses: google-github-actions/release-please-action@v3
         id: release
         with:
-          token: ${{ secrets.ACCESS_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
           release-type: node
           package-name: fetcher
           command: github-release
